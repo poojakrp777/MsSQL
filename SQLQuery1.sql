@@ -29,8 +29,8 @@ select * from EmployeePayroll;
 
 --UC7-Avg, sum, max, min salary
 select Sum(Salary) from EmployeePayroll where Gender='M' group by Gender;
-	select Sum(Salary) as Total_Sum from EmployeePayroll where Gender='M' group by Gender;
-	select Avg(Salary) as Total_Avg from EmployeePayroll where Gender='M' group by Gender;
-	select Min(Salary) as Minsalary from EmployeePayroll where Gender='M' group by Gender;
-	select Max(Salary) as Maxsalary from EmployeePayroll where Gender='M' group by Gender;
-	select COUNT (*)TotalRecord from EmployeePayroll;
+select Sum(Salary) as Total_Sum from EmployeePayroll where Gender='M' group by Gender;
+select Avg(Salary) as Total_Avg from EmployeePayroll where Gender='M' group by Gender;
+select Min(Salary) as Minsalary from EmployeePayroll where Gender='M' group by Gender;
+select Max(Salary) as Maxsalary from EmployeePayroll where Gender='M' group by Gender;
+select COUNT (*)TotalRecord from EmployeePayroll;

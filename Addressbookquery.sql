@@ -24,6 +24,7 @@ select * from AddressBook
 insert into AddressBook values('Ankitha', 'P', 'BNG', 'BNG', 'TN', 526, 9648236425, 'anki@gmail.com')
 insert into AddressBook values('Basava', 'raj', 'kdr', 'ckm', 'Kar', 556, 5577669988, 'basu@gmail.com')
 insert into AddressBook values('Pavitra', 'GOWda', 'tvk', 'tmk', 'kar', 572, 9589256316, 'pavitra@gmail.com')
+insert into AddressBook values('Pallavi', 'GOWda', 'tvk', 'tmk', 'kar', 572, 9589256316, 'pallavi@gmail.com'
 select * from AddressBook where State= 'TN'
 select * from AddressBook where City= 'ckm'
 

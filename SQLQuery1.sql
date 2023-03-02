@@ -25,6 +25,7 @@ update EmployeePayroll set Gender = 'M' where Empname='Bill'
 update EmployeePayroll set Gender = 'M' where Empname='charlie'
 update EmployeePayroll set Gender = 'M' where Empname='Abhi'
 update EmployeePayroll set Gender = 'F' where Empname='Pooja'
+update EmployeePayroll set Gender = 'F' where Empname='Ammu'
 select * from EmployeePayroll;
 
 --UC7-Avg, sum, max, min salary
